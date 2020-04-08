@@ -1,0 +1,55 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #131626;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.container{
+    /* height: 500px; */
+    width: 30%;
+    margin: 5% auto;
+    border-radius: 4px;
+    background-color: #57385C;
+}
+
+.truck{
+    position: relative;
+    top: 10px;
+    width: 100%;
+    background-image:  url(../images/truck.jpg);
+    background-size: 100%;
+    height: 280px;
+}
+
+.inputs{
+    padding: 5%;
+}
+.inputs .group{
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs div label{
+    font-weight: bold;
+    color: white;
+}
+
+.inputs div input{
+    height: 30px;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.input-content {
+    display:flex;
+    background: #e4e4e4;
+    align-items: center;
+    border-radius: 4px;
+}
+
+
+.icon{
+    width: 30px;
+    padding: 4px;
+}
